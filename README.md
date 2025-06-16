@@ -29,6 +29,16 @@ Verifica que el servicio esté corriendo:
 sudo systemctl status ssh
 ```
 
+Si el servicio esta corriendo, hay que validar `IP_UBUNTU`:
+```bash
+hostname -I
+```
+
+Esto te mostrara directamente la IP, por ejemplo:
+```bash
+192.168.1.100
+```
+
 ---
 
 ## 🔐 2. Verifica conexión SSH desde tu Mac
